@@ -30,8 +30,8 @@ Create your own cpp project like this:
 - From $PWD/build_tools/ copy everything to $BUILD/
 - At $BUILD edit the "run_cmake.bash" file:
 
-    -Edit demo_lib_path to point into $PWD/demo_dep
-    -Edit MY_CMAKE_DIR to point into $PWD
+    - Edit demo_lib_path to point into $PWD/demo_dep
+    - Edit MY_CMAKE_DIR to point into $PWD
 
 - At $BUILD, run "./run_cmake.bash"
 
