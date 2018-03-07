@@ -77,6 +77,8 @@ Make autodocs visible in GitHub like this:
     
 (there is a file ".nojekyll" at the docs/ folder.  Don't touch it - required for the pages to work)
 
+Now you can see them at "https://username.github.io/your_project_name", see [here](https://elsampsa.github.io/skeleton-cpp).
+
 ## Create a debian package
 
 at $BUILD, run "make package"

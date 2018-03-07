@@ -8,8 +8,8 @@
 #
 # *** Here we are creating a shared library ***
 # - The shared library comes with a test suite = small test executables
-# - The shared library encapsulates statically compiled libraries
-# - The shared library depends on another shared library
+# - The shared library encapsulates statically compiled libraries (in this example, at the demo_dep/ directory)
+# - The shared library depends on another shared library (in this example, it is the "sqlite3" library)
 
 cmake_minimum_required(VERSION 3.1)
 find_package(PkgConfig REQUIRED)
