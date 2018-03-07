@@ -11,11 +11,11 @@ Ever needed to build a cpp shared (.so) library that ..
 
 This repo has a minimal "scaffold" to do all that.  Just follow this readme file line-by-line.
 
-## Checkout and init
+## Clone and init
 
 Create your own cpp project like this:
 
-    git checkout ..
+    git clone https://github.com/elsampsa/skeleton-cpp.git
     mv skeleton-cpp your_project_name
     cd your_project_name
     ./reinit.bash
