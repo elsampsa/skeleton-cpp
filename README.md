@@ -29,9 +29,8 @@ Create your own cpp project like this:
 - Create a separate directory for builds (should not be under this path), lets call it $BUILD
 - From $PWD/build_tools/ copy everything to $BUILD/
 - At $BUILD edit the "run_cmake.bash" file:
-
-  -Edit demo_lib_path to point into $PWD/demo_dep
-  -Edit MY_CMAKE_DIR to point into $PWD
+    -Edit demo_lib_path to point into $PWD/demo_dep
+    -Edit MY_CMAKE_DIR to point into $PWD
 
 - At $BUILD, run "./run_cmake.bash"
 
@@ -47,28 +46,28 @@ After this, you can run an executable in $BUILD/bin with "./test1 1"
 
 ## Set version
 
-    ./setver.bash 0 1 0
+      ./setver.bash 0 1 0
 
 ## Recompile documentation
 
 - Read "include/doc.h"
 - Recompile docs with:
 
-    cd docs
-    ./make_doc.bash
+      cd docs
+      ./make_doc.bash
 
 - Read documentation with (at $PWD):
 
-    firefox docs/index.html
+      firefox docs/index.html
 
 ## Send your project to GitHub
 
 Like this:
 
     git init
-    git remote add origin https://[your-personal-git-repository]/your_project_name.git
     git add *
     git commit -m "initial commit"
+    git remote add origin https://[your-personal-git-repository]/your_project_name.git
     git push -u origin master
 
 Make autodocs visible in GitHub like this:
