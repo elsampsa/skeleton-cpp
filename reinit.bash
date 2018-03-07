@@ -8,7 +8,7 @@ fi
 echo initializing project $name
 # replace project names
 
-fs="README.md src/* include/* docs/*"
+fs="README.md CMakeLists.txt src/* include/* docs/*"
 for f in $fs
 do
   find $f -exec sed -i -r "s/skeleton/$name/g" {} \;
